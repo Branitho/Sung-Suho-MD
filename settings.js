@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~czcxVCKI#ix5RW9qWdg0b6XRzCy55OIj0Kxoo8RO8Kr526jLa0Vk",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -30,19 +30,19 @@ module.exports = {
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // make true if you want auto reply on status 
 
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
     // make true to know who dismiss or promoted a member in group
 
-    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK: process.env.ANTI_LINK || "false",
     // make anti link true,false for groups 
 
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -85,7 +85,7 @@ module.exports = {
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
     // add bot owner description  
 
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",
     // Turn true or false for automatic read msgs
 
     AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -103,13 +103,13 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     // true for automatic show typing  
 
     READ_CMD: process.env.READ_CMD || "false",
@@ -124,7 +124,7 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
     // make it true for auto recording 
 
     version: process.env.version || "0.0.6"
